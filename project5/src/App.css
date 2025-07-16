@@ -1,0 +1,61 @@
+
+/* Responsive design */
+@media screen and (max-width: 480px) {
+  form {
+    padding: 15px;
+    margin: 30px auto;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
+table, th, td{
+border: solid 1px #ddd;
+}
+
+
+/* Font và reset nhẹ */
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Link mặc định */
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #1a5dbb;
+}
+
+/* Button mặc định */
+button, .btn {
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:active, .btn:active {
+    transform: scale(0.98);
+}
+
+/* Headings đồng bộ */
+h1, h2, h3, h4 {
+    font-weight: 600;
+    margin: 0 0 10px 0;
+    line-height: 1.2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}

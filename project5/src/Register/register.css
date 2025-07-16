@@ -1,0 +1,97 @@
+/* Import font hiện đại từ Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+/* Bố cục chính của form đăng ký */
+.register-form {
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+/* Tiêu đề */
+.register-title {
+  text-align: center;
+  color: #2c3e50;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 25px;
+  letter-spacing: 0.5px;
+}
+
+/* Các phần input */
+.register-input-group {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.register-input {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.register-input:focus {
+  border-color: #e74c3c; /* Màu đỏ nhạt để phân biệt với login (xanh lá) */
+  outline: none;
+  box-shadow: 0 0 5px rgba(231, 76, 60, 0.3);
+}
+
+/* Placeholder style */
+.register-input::placeholder {
+  color: #888;
+  font-weight: 400;
+}
+
+/* Nút đăng ký */
+.register-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #e74c3c; /* Màu đỏ nhạt để khác biệt với login */
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.register-button:hover {
+  background-color: #c0392b; /* Màu đậm hơn khi hover */
+  transform: translateY(-1px);
+}
+
+.register-button:active {
+  transform: scale(0.98);
+}
+
+/* Responsive design */
+@media screen and (max-width: 480px) {
+  .register-form {
+    margin: 30px auto;
+    padding: 20px;
+  }
+
+  .register-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .register-input {
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+
+  .register-button {
+    font-size: 14px;
+  }
+}

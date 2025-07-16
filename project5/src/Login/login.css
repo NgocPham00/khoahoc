@@ -1,0 +1,97 @@
+/* Import font hiện đại từ Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+/* Bố cục chính của form đăng nhập */
+.login-form {
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+/* Tiêu đề */
+.login-title {
+  text-align: center;
+  color: #2c3e50;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 25px;
+  letter-spacing: 0.5px;
+}
+
+/* Các phần input */
+.login-input-group {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.login-input {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-input:focus {
+  border-color: #1abc9c;
+  outline: none;
+  box-shadow: 0 0 5px rgba(26, 188, 156, 0.3);
+}
+
+/* Placeholder style */
+.login-input::placeholder {
+  color: #888;
+  font-weight: 400;
+}
+
+/* Nút đăng nhập */
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1abc9c;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-button:hover {
+  background-color: #16a085;
+  transform: translateY(-1px);
+}
+
+.login-button:active {
+  transform: scale(0.98);
+}
+
+/* Responsive design */
+@media screen and (max-width: 480px) {
+  .login-form {
+    margin: 30px auto;
+    padding: 20px;
+  }
+
+  .login-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .login-input {
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+
+  .login-button {
+    font-size: 14px;
+  }
+}

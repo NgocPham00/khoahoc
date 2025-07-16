@@ -1,0 +1,84 @@
+.form-quiz {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-quiz__item {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.form-quiz__item p {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.form-quiz__ans {
+  margin-bottom: 10px;
+}
+
+.form-quiz__ans label {
+  margin-left: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
+.form-quiz__ans input[type="radio"] {
+  margin-right: 8px;
+}
+
+.form-quiz__ans input[type="radio"]:disabled {
+  cursor: not-allowed;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+/* Results Styling */
+.result-correct {
+  color: #28a745; /* Green for correct answers */
+}
+
+.result-incorrect {
+  color: #dc3545; /* Red for incorrect answers */
+}
+
+.result-unanswered {
+  color: #6c757d; /* Gray for unanswered */
+}
+
+/* Ensure the result feedback is styled */
+.form-quiz__item p span {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+/* Style for correct answer indication */
+.form-quiz__ans span {
+  margin-left: 5px;
+  font-weight: bold;
+}

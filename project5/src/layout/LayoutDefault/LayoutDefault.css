@@ -1,0 +1,94 @@
+/* Bố cục chung */
+.layout-default {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Header */
+  .layout-default__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c3e50;
+    padding: 0 20px;
+    height: 60px;
+  }
+  
+  /* Logo */
+  .layout-default__logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Menu chính */
+  .menu {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .menu a:hover,
+  .menu a.active {
+    border-bottom: 2px solid #1abc9c;
+  }
+  
+  /* Auth links - Đẩy sang phải */
+  .auth-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .auth-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .auth-links a:hover {
+    color: #1abc9c;
+  }
+  
+  /* Main content */
+  .layout-default__main {
+    flex: 1;
+    padding: 20px;
+    background-color: #ecf0f1;
+  }
+  
+  /* Footer */
+  .layout-default__footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .layout-default__header {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+      height: auto;
+    }
+  
+    .menu {
+      margin-top: 10px;
+      gap: 15px;
+    }
+  
+    .auth-links {
+      margin-top: 10px;
+      width: 100%;
+      justify-content: space-between;
+    }
+  }
+  

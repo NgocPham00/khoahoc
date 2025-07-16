@@ -1,0 +1,205 @@
+/* Import font hiện đại từ Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+/* Container chatbot */
+.chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+/* Nút bật/tắt chatbot */
+.chatbot-toggle {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.chatbot-toggle:hover {
+    background-color: #0056b3; /* Màu xanh đậm hơn khi hover */
+    transform: scale(1.1);
+}
+
+/* Hộp thoại chatbot */
+.chatbot-box {
+    width: 350px; /* Tăng từ 300px để rộng rãi hơn */
+    max-height: 500px; /* Giới hạn chiều cao tối đa */
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transform: translateY(20px);
+    opacity: 0;
+    visibility: hidden;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0s linear 0.3s;
+}
+
+.chatbot-container.open .chatbot-box {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0s;
+}
+
+/* Header chatbot */
+.chatbot-header {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 15px;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-start; /* Căn trái tiêu đề */
+    align-items: center;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+/* Nút đóng - Di chuyển sát bên phải */
+.close-btn {
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 0 5px;
+    margin-left: auto; /* Đẩy nút đóng sát bên phải */
+    transition: color 0.2s ease-in-out;
+}
+
+.close-btn:hover {
+    color: #e0e0e0; /* Màu sáng hơn khi hover */
+}
+
+/* Khu vực tin nhắn */
+.chatbot-messages {
+    padding: 15px;
+    height: 360px; /* Tăng từ 220px để hiển thị nhiều tin nhắn hơn */
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #f8f9fa; /* Nền xám nhạt nhẹ */
+}
+
+/* Thanh cuộn tùy chỉnh */
+.chatbot-messages::-webkit-scrollbar {
+    width: 8px;
+}
+
+.chatbot-messages::-webkit-scrollbar-thumb {
+    background-color: #007bff;
+    border-radius: 4px;
+}
+
+.chatbot-messages::-webkit-scrollbar-track {
+    background-color: #f1f0f0;
+}
+
+/* Tin nhắn */
+.message {
+    padding: 10px 15px;
+    border-radius: 15px;
+    max-width: 80%;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    font-size: 14px;
+    line-height: 1.4;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.message.user {
+    align-self: flex-end;
+    background-color: #dcf8c6; /* Xanh lá nhạt cho người dùng */
+    color: #333;
+}
+
+.message.bot {
+    align-self: flex-start;
+    background-color: #e9ecef; /* Xám nhạt cho bot, tăng độ tương phản */
+    color: #333;
+}
+
+/* Khu vực nhập liệu */
+.chatbot-input {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+    gap: 10px;
+    background-color: #f8f9fa; /* Nền xám nhạt đồng bộ với tin nhắn */
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    width: auto; /* Bỏ width cố định để responsive */
+}
+
+/* Label - Làm rộng hơn và chiếm không gian hợp lý */
+.chatbot-input label {
+    font-size: 12px;
+    color: #555;
+    white-space: nowrap;
+    flex: 1; /* Giúp label chiếm không gian tối đa */
+    min-width: 80px; /* Đảm bảo label có chiều rộng tối thiểu */
+}
+
+/* Input */
+.chatbot-input input {
+    flex: 2; /* Tăng không gian cho input */
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 8px 12px;
+    outline: none;
+    font-size: 14px;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.chatbot-input input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Nút gửi - Giảm kích thước */
+.chatbot-input button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 6px 10px; /* Giảm padding từ 8px 15px */
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.chatbot-input button:hover {
+    background-color: #0056b3; /* Màu đậm hơn khi hover */
+}
+
+/* Responsive cho thiết bị di động */
+@media (max-width: 400px) {
+    .chatbot-box {
+        width: 90vw; /*wood: 300px; - sửa lỗi typo */
+        max-height: 450px;
+    }
+
+    .chatbot-messages {
+        height: 300px; /* Giảm chiều cao tin nhắn cho màn hình nhỏ */
+    }
+
+    .chatbot-input {
+        flex-wrap: wrap; /* Cho phép wrap trên màn hình nhỏ */
+    }
+
+    .chatbot-input input {
+        min-width: 0; /* Đảm bảo input co giãn linh hoạt */
+    }
+}

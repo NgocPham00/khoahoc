@@ -1,0 +1,232 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "fullName": "Nguyen Thi A",
+      "email": "nguyenthia@gmail.com",
+      "password": "nguyenthia",
+      "token": "bKp9VQyDBRml670bqD7"
+    },
+    {
+      "id": "2",
+      "fullName": "Do Thi B",
+      "email": "dothib@gmail.com",
+      "password": "dothib",
+      "token": "KSzitkPwbDPF3fdjbQwH"
+    },
+    {
+      "id": "3",
+      "fullName": "Le Van C",
+      "email": "levanc@gmail.com",
+      "password": "levanc",
+      "token": "AbcdEfGh12345678"
+    },
+    {
+      "id": "4",
+      "fullName": "Tran Thi D",
+      "email": "trand@gmail.com",
+      "password": "trand",
+      "token": "ZyXwVuTs09876543"
+    },
+    {
+      "id": "1129",
+      "fullName": "Nguyen Thi F",
+      "email": "nguyenthif@gmail.com",
+      "password": "nguyenthif",
+      "token": "cOOmKtSqJ24pBUekl1Wl"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Khóa học TOEIC 800+",
+      "price": 450000,
+      "image": "https://gdcenglish.edu.vn/wp-content/themes/tkw/images/mb/img11.png",
+      "shortDescription": "Ôn luyện TOEIC cấp tốc",
+      "longDescription": "Khóa học giúp bạn đạt TOEIC 800+ trong 2 tháng luyện tập với chiến lược và tips độc quyền.",
+      "rating": 4.3
+    },
+    {
+      "id": 2,
+      "name": "Lập trình React từ A-Z",
+      "price": 1200000,
+      "image": "https://tse3.mm.bing.net/th/id/OIP.hD3NhUXSYHYKIMiLW7ueEwHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "shortDescription": "Học lập trình React bài bản",
+      "longDescription": "Khóa học React chi tiết từ cơ bản đến nâng cao, xây dựng dự án thực tế, giúp bạn tự tin ứng tuyển Front-end Developer.",
+      "rating": 4.8
+    },
+    {
+      "id": 3,
+      "name": "Khóa học Tiếng Anh Giao Tiếp",
+      "price": 750000,
+      "image": "https://th.bing.com/th/id/R.0f4c857c1ca596fd4518609387aeaf18?rik=l60%2bLaA9A70Pzw&pid=ImgRaw&r=0",
+      "shortDescription": "Học giao tiếp tiếng Anh",
+      "longDescription": "Khóa học giúp bạn tự tin giao tiếp tiếng Anh, luyện phát âm, phản xạ nhanh, với giáo viên bản xứ qua Zoom.",
+      "rating": 4.5
+    },
+    {
+      "id": 4,
+      "name": "Khóa học IELTS 7.0+",
+      "price": 990000,
+      "image": "https://admin.ebomb.edu.vn/uploads/images/userfiles/course/khoahocielts7.jpg",
+      "shortDescription": " IELTS từ cơ bản đến nâng cao",
+      "longDescription": "Khóa học giúp bạn đạt band 7.0+ IELTS trong 3 tháng, có lộ trình học phù hợp từng cấp độ.",
+      "rating": 4.7
+    },
+    {
+      "id": 5,
+      "name": "Khóa học Data Analysis",
+      "price": 1500000,
+      "image": "https://tse3.mm.bing.net/th/id/OIP.Hh8S-curDuciLKPEWpxv8AHaEc?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "shortDescription": "Phân tích dữ liệu với Python",
+      "longDescription": "Khóa học giúp bạn thành thạo phân tích dữ liệu bằng Python, Pandas, và visualization với các dự án thực tế.",
+      "rating": 4.6
+    },
+    {
+      "id": 6,
+      "name": "Khóa học JavaScript cơ bản",
+      "price": 500000,
+      "image": "https://i.ytimg.com/vi/biMC3T0nQo0/maxresdefault.jpg",
+      "shortDescription": "Học JavaScript từ con số 0",
+      "longDescription": "Khóa học JavaScript cơ bản giúp bạn nắm vững kiến thức lập trình nền tảng để tiếp cận các framework Front-end.",
+      "rating": 4.4
+    },
+    {
+      "id": 7,
+      "name": "Khóa học Machine Learning",
+      "price": 2000000,
+      "image": "https://tse3.mm.bing.net/th/id/OIP.kCzIpbPx6wehFPhxpz72bgHaEo?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "shortDescription": "Học Machine Learning từ A-Z",
+      "longDescription": "Khóa học ML giúp bạn hiểu lý thuyết và áp dụng vào các bài toán thực tế như classification, regression, clustering.",
+      "rating": 4.9
+    },
+    {
+      "id": 8,
+      "name": "Khóa học Photoshop Cơ Bản",
+      "price": 400000,
+      "image": "https://store.hoangphucphoto.com/wp-content/uploads/2021/08/thumbnail-pts-1.jpg",
+      "shortDescription": "Chỉnh sửa ảnh chuyên nghiệp",
+      "longDescription": "Khóa học giúp bạn làm chủ Photoshop để chỉnh sửa, thiết kế ảnh phục vụ công việc và học tập.",
+      "rating": 4.2
+    },
+    {
+      "id": 9,
+      "name": "Khóa học Tiếng Nhật N5",
+      "price": 600000,
+      "image": "https://tse3.mm.bing.net/th/id/OIP.EX2V5PP3oxgffGpBtvLN0QHaJV?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "shortDescription": "Tiếng Nhật căn bản",
+      "longDescription": "Khóa học tiếng Nhật trình độ N5 giúp bạn học bảng chữ cái, từ vựng và giao tiếp cơ bản.",
+      "rating": 4.3
+    },
+    {
+      "id": 10,
+      "name": "Khóa học UI/UX Design",
+      "price": 1350000,
+      "image": "https://th.bing.com/th/id/R.0b6f2194a649ab012d5e81ea639fdd48?rik=5Wa7KBhoWICAlA&pid=ImgRaw&r=0",
+      "shortDescription": "Thiết kế giao diện người dùng",
+      "longDescription": "Khóa học giúp bạn nắm vững kiến thức UI/UX để thiết kế app/website hiện đại, thân thiện người dùng.",
+      "rating": 4.6
+    },
+    {
+      "id": 11,
+      "name": "Khóa học Kỹ Năng Thuyết Trình",
+      "price": 350000,
+      "image": "https://tse3.mm.bing.net/th/id/OIP.JlK4poAmSLZ8y0QCw3YSrAHaFF?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "shortDescription": "Tự tin khi thuyết trình",
+      "longDescription": "Khóa học giúp bạn rèn luyện kỹ năng thuyết trình, trình bày lưu loát, gây ấn tượng với người nghe.",
+      "rating": 4.1
+    },
+    {
+      "id": 12,
+      "name": "Khóa học Python Cơ Bản",
+      "price": 550000,
+      "image": "https://d1iv5z3ivlqga1.cloudfront.net/wp-content/uploads/2020/12/30151926/Wordpress-featured-image-2-14.jpg",
+      "shortDescription": "Học lập trình Python từ đầu",
+      "longDescription": "Khóa học Python cơ bản giúp bạn nắm vững cú pháp, lập trình hướng đối tượng, xử lý dữ liệu.",
+      "rating": 4.5
+    },
+    {
+      "id": 13,
+      "name": "Khóa học Digital Marketing",
+      "price": 800000,
+      "image": "https://tse3.mm.bing.net/th/id/OIP.RMtrjd1xYXNc3aE_1sHUBAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "shortDescription": "Marketing online hiệu quả",
+      "longDescription": "Khóa học giúp bạn hiểu cách chạy quảng cáo, SEO, xây dựng nội dung để phát triển kênh bán hàng online.",
+      "rating": 4.4
+    },
+    {
+      "id": 14,
+      "name": "Khóa học Node.js Cơ Bản",
+      "price": 950000,
+      "image": "https://vtiacademy.edu.vn/upload/images/artboard-1-copy-12-100.jpg",
+      "shortDescription": "Học Backend với Node.js",
+      "longDescription": "Khóa học giúp bạn làm quen với lập trình backend bằng Node.js, Express, xây dựng API đơn giản.",
+      "rating": 4.3
+    },
+    {
+      "id": 15,
+      "name": "Khóa học Speaking IELTS",
+      "price": 780000,
+      "image": "https://ielts-powerup.com/wp-content/uploads/2023/03/khoa-hoc-speaking-ielts-1.jpg",
+      "shortDescription": "Luyện Speaking với giáo viên bản xứ",
+      "longDescription": "Khóa học giúp bạn cải thiện khả năng nói, phản xạ nhanh và đạt điểm cao phần Speaking trong IELTS.",
+      "rating": 4.6
+    },
+    {
+      "id": 16,
+      "name": "Khóa học Tư Duy Phản Biện",
+      "price": 300000,
+      "image": "https://i.ytimg.com/vi/qVrZ-5q4uY8/maxresdefault.jpg",
+      "shortDescription": "Rèn luyện tư duy phản biện",
+      "longDescription": "Khóa học giúp bạn phát triển tư duy phản biện để xử lý vấn đề logic, hiệu quả hơn trong công việc.",
+      "rating": 4.0
+    },
+    {
+      "id": 17,
+      "name": "Khóa học Tiếng Trung Giao Tiếp",
+      "price": 650000,
+      "image": "https://th.bing.com/th/id/R.3ab53d4578eee76f1c20e34bd00b8109?rik=E%2b5rqlNgsbDHug&pid=ImgRaw&r=0",
+      "shortDescription": "Học tiếng Trung cơ bản",
+      "longDescription": "Khóa học giúp bạn giao tiếp tiếng Trung trong các tình huống hàng ngày, luyện phát âm và phản xạ.",
+      "rating": 4.3
+    },
+    {
+      "id": 18,
+      "name": "Khóa học SQL Cơ Bản",
+      "price": 500000,
+      "image": "https://nhatthanh.net/UserFiles/image/2023/khoa-hoc-sql-server.jpg",
+      "shortDescription": "Quản lý cơ sở dữ liệu với SQL",
+      "longDescription": "Khóa học giúp bạn biết cách tạo bảng, query dữ liệu, xử lý dữ liệu bằng SQL phục vụ lập trình web/app.",
+      "rating": 4.4
+    },
+    {
+      "id": 19,
+      "name": "Khóa học Flutter Mobile",
+      "price": 1400000,
+      "image": "https://hocvienit.vn/wp-content/uploads/2020/09/khoa-hoc-lap-trinh-di-dong-flutter-cho-ios-android.jpg",
+      "shortDescription": "Phát triển ứng dụng di động",
+      "longDescription": "Khóa học Flutter giúp bạn xây dựng app di động đa nền tảng iOS/Android hiện đại, tối ưu performance.",
+      "rating": 4.7
+    },
+    {
+      "id": 20,
+      "name": "Khóa học Canva Design",
+      "price": 250000,
+      "image": "https://d3design.vn/uploads/KHOA_HOC_CANVA_TU_A_Z_D3DESIGN.jpg",
+      "shortDescription": "Thiết kế nhanh với Canva",
+      "longDescription": "Khóa học giúp bạn sử dụng Canva thiết kế poster, banner, nội dung mạng xã hội nhanh chóng, hiệu quả.",
+      "rating": 4.2
+    },
+    {
+      "id": 21,
+      "name": "Khóa học Tailwind CSS từ A-Z",
+      "price": 250000,
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjEi3Jia8hxRxZAhqDQRbkhn89RYBdM7UdphBp_KLk3CQYVy-gwdWtG5M5dWGny5geVKMpNfJMcxJk7r8OFiZjM9RhgK-vF9jrqsj0-NczmOUNvAoxF1i9Zb8zB9eizaawniKKpZu_Jr-vXAop-5oYjE_B3T574PfnPvaaMLHESb9zZBpFVkeokzPV/s1244/Tailwind%20CSS.png",
+      "shortDescription": "Thiết kế web với Tailwind CSS",
+      "longDescription": "Khóa học Tailwind CSS từ A-Z giúp bạn thành thạo framework Tailwind để xây dựng giao diện web hiện đại, responsive, tối ưu hóa tốc độ phát triển và dễ dàng tùy biến thiết kế. Phù hợp cho người mới bắt đầu hoặc lập trình viên muốn nâng cao kỹ năng Front-end.",
+      "rating": 4.5
+    }
+
+  ]
+  
+}
