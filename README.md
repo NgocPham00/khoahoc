@@ -2,8 +2,8 @@
 
 ## 🚀 Demo
 
-Xem demo tại: [https://khoahoc-demo.vercel.app]([https://khoahoc-demo.vercel.app](https://tourmaline-sfogliatella-cad16f.netlify.app/favorites))  
-
+Xem demo tại: [[https://khoahoc-demo.vercel.app]([https://khoahoc-demo.vercel.app](https://tourmaline-sfogliatella-cad16f.netlify.app/favorites))  
+](https://tourmaline-sfogliatella-cad16f.netlify.app/)
 ---
 
 ## 🛠 Công nghệ sử dụng
